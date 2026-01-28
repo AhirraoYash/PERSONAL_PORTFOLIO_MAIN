@@ -31,7 +31,7 @@ src/
 │   └── page.tsx        # Home page
 ├── public/             # Static assets
 │   ├── Project_UI/     # Project screenshots
-│   └── Piyush_Yadav_Resume.pdf # Resume file
+│   └── Yash_ahirrao.pdf # Resume file
 └── ...                 # Configuration files
 ```
 
@@ -46,7 +46,7 @@ src/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/itspiyush3451/personal-portfolio.git
+   git clone https://github.com/AhirraoYash/PERSONAL_PORTFOLIO_MAIN.git
    cd personal-portfolio
    ```
 
@@ -80,11 +80,9 @@ yarn build
 
 ##  Contact
 
-- **Email**: piyus3451@gmail.com
-- **GitHub**: [itspiyush3451](https://github.com/itspiyush3451)
-- **LinkedIn**: [Piyush Yadav](https://www.linkedin.com/in/piyush-yadav-609500234/)
-- **Twitter**: [@Piyush3451](https://twitter.com/Piyush3451)
+- **Email**: yashahirrao204@gmail.com
+- **GitHub**: [ahirraoYash](https://github.com/AhirraoYash)
+- **LinkedIn**: [Piyush Yadav](https://www.linkedin.com/in/yash-ahirrao-57508b253)
 
-## 📄 License
 
-This project is open source and available under the MIT License.
+
