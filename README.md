@@ -86,3 +86,58 @@ yarn build
 
 
 
+
+```
+personal-portfolio-main
+├─ eslint.config.mjs
+├─ next.config.ts
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ public
+│  ├─ favicon.svg
+│  ├─ file.svg
+│  ├─ globe.svg
+│  ├─ next.svg
+│  ├─ Piyush_Yadav_Resume.pdf
+│  ├─ profilePhoto piyush.jpg
+│  ├─ profilePhoto.jpeg
+│  ├─ Project_UI
+│  │  ├─ EduForum.jpg
+│  │  ├─ FindMySpot.png
+│  │  ├─ Sentilytics.png
+│  │  ├─ SmartLedger.png
+│  │  ├─ StudentExamPortal.jpeg
+│  │  ├─ syllabus-deadline-optimizer.png
+│  │  └─ text-to-speech.png
+│  ├─ vercel.svg
+│  ├─ window.svg
+│  └─ Yash_Ahirrao.pdf
+├─ README.md
+├─ src
+│  └─ app
+│     ├─ components
+│     │  ├─ About.tsx
+│     │  ├─ Collaborate.tsx
+│     │  ├─ Contact.tsx
+│     │  ├─ Contact.tsx.new
+│     │  ├─ Education.tsx
+│     │  ├─ Footer.tsx
+│     │  ├─ Header.tsx
+│     │  ├─ Hero.tsx
+│     │  ├─ Projects.tsx
+│     │  └─ ThemeToggle.tsx
+│     ├─ context
+│     │  └─ ThemeContext.tsx
+│     ├─ cv-viewer
+│     │  └─ page.tsx
+│     ├─ favicon.ico
+│     ├─ favicon.svg
+│     ├─ globals.css
+│     ├─ layout.tsx
+│     ├─ page.tsx
+│     └─ providers.tsx
+├─ tailwind.config.js
+└─ tsconfig.json
+
+```

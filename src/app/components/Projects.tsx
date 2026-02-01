@@ -35,11 +35,11 @@ const Projects = () => {
   
   // Custom visuals for each project based on title - uses screenshots with overlay gradient
   const getProjectVisual = (title: string) => {
-    if (title.includes("EduForum")) {
+    if (title.includes("EduTestify")) {
       return (
         <div className="relative w-full h-full overflow-hidden">
           <Image 
-            src="/Project_UI/EduForum.jpg" 
+            src="/Project_UI/EduTestify.png" 
             alt="EduForum Project Screenshot" 
             fill 
             className="object-contain"
@@ -49,12 +49,12 @@ const Projects = () => {
       );
     }
     
-    if (title.includes("FindMySpot")) {
+    if (title.includes("WanderLuxe")) {
       return (
         <div className="relative w-full h-full overflow-hidden">
         <Image 
-          src="/Project_UI/FindMySpot.png" 
-          alt="FindMySpot Screenshot" 
+          src="/Project_UI/WanderLuxe.png" 
+          alt="WanderLuxe Screenshot" 
           fill 
           className="object-contain"
         />
@@ -63,12 +63,12 @@ const Projects = () => {
       );
     }
     
-    if (title.includes("Sentilytics")) {
+    if (title.includes("BankMate")) {
       return (
         <div className="relative w-full h-full overflow-hidden">
         <Image 
-          src="/Project_UI/Sentilytics.png" 
-          alt="Sentilytics Screenshot" 
+          src="/Project_UI/BankMate.png" 
+          alt="BankMate Screenshot" 
           fill 
           className="object-contain"
         />
@@ -77,12 +77,12 @@ const Projects = () => {
       );
     }
     
-    if (title.includes("Exam Portal")) {
+    if (title.includes("ShareCharge")) {
       return (
         <div className="relative w-full h-full overflow-hidden">
           <Image 
-            src="/Project_UI/StudentExamPortal.jpeg" 
-            alt="Student Exam Portal Screenshot" 
+            src="/Project_UI/ShareCharge.png" 
+            alt="ShareCharge Screenshot" 
             fill 
             className="object-contain"
           />
@@ -148,9 +148,9 @@ const Projects = () => {
   
   const projects = [
     {
-      title: "EduForum: Smart Academic Forum & Chatbot System",
+      title: "EduTestify : Automated MCQ Assessment Portal",
       description:
-        "A modern web platform revolutionizing campus communication through AI-powered assistance.",
+        "A streamlined digital testing platform designed to simplify the creation, delivery, and instant evaluation of multiple-choice examinations.",
       technologies: [
         "React.js",
         "Node.js",
@@ -159,28 +159,28 @@ const Projects = () => {
         "Tailwind CSS"
        
       ],
-      liveUrl: "https://itspiyush3451.github.io/Loader/",
-      githubUrl: "https://github.com/itspiyush3451/EduForum",
+      liveUrl: "https://exam-portal-college-1.onrender.com/",
+      githubUrl: "https://github.com/AhirraoYash/Exam-Portal-college.git",
       date: "2025",
       featured: true,
     },
     {
-      title: "FindMySpot: Real-Time Parking Locator",
+      title: "WanderLuxe: Seamless Global Travel Booking System",
       description:
-        "A real-time parking locator web app built with the MERN stack and Leaflet for interactive maps.",
+        "A comprehensive web platform designed to simplify itinerary planning with secure, real-time booking and curated travel experiences.",
       technologies: ["React", "Node.js", "Socket.io", "MySQL","Tailwind CSS", "Leaflet"],
       liveUrl: "https://itspiyush3451.github.io/Loader/",
-      githubUrl: "https://github.com/itspiyush3451/FindMySpot",
+      githubUrl: "https://github.com/AhirraoYash",
       date: "2025",
       featured: true,
     },
     {
-      title: "Sentilytics: Twitter Sentiment Analysis",
+      title: "BankMate: Secure Doorstep Banking & Cash Delivery",
       description:
-        "This project focuses on detecting hate speech in tweets by classifying them as racist/sexist or non-racist/sexist. The dataset includes labeled tweets where: Label 1: Racist/Sexist sentiment. Label 0: Neutral or non-racist/sexist sentiment",
-      technologies: ["Python", "Flask", "TensorFlow"],
+        "An innovative financial logistics platform that brings the ATM experience home through secure, on-demand cash delivery services",
+      technologies: ["Java", "Spring Boot", "Tailwind CSS", "MySQL"],
       liveUrl: "https://itspiyush3451.github.io/Loader/",
-      githubUrl: "https://github.com/itspiyush3451/Sentilytics-TwitterSentimentAnalysis",
+      githubUrl: "https://github.com/AhirraoYash",
       date: "2024",
       featured: false,
     },
@@ -190,17 +190,17 @@ const Projects = () => {
         "A web-based application to help professors manage their lectures efficiently and track syllabus progress according to deadlines.",
       technologies: ["HTML", "CSS", "JavaScript", "Java", "Spring Boot", "MySQL"],
       liveUrl: "https://itspiyush3451.github.io/Loader/",
-      githubUrl: "https://github.com/itspiyush3451/syllabus-deadline-optimizer",
+      githubUrl: "",
       date: "2024",
       featured: false,
     },
     {
-      title: "Student Exam Portal",
+      title: "ShareCharge: Unified Smart Charging Network",
       description:
-        "A PHP and PostgreSQL-based platform enabling efficient online exams with real-time timers, easy exam management for administrators, and a seamless experience for students.",
-      technologies: ["PHP", "PostgreSQL", "HTML", "CSS", "JavaScript"],
+        "A centralized platform that aggregates diverse charging infrastructures into a single, seamless interface for effortless discovery and payments.",
+       technologies: ["React", "Node.js", "Socket.io", "MySQL","Tailwind CSS", "Leaflet"],
       liveUrl: "https://itspiyush3451.github.io/Loader/",
-      githubUrl: "https://github.com/itspiyush3451/Student-Exam-Portal",
+      githubUrl: "https://github.com/AhirraoYash/ShareCharge-final.git",
       date: "2024",
       featured: false,
     },
@@ -210,7 +210,7 @@ const Projects = () => {
         "A JavaScript-based Text-to-Speech tool that converts text into natural-sounding speech using the Web Speech API. It allows for easy integration of speech functionality into web applications with customizable options like rate, pitch, and volume.",
       technologies: ["HTML", "CSS", "JavaScript", "Vite"],
       liveUrl: "https://itspiyush3451.github.io/Loader/",
-      githubUrl: "https://github.com/itspiyush3451/Text-to-Speech",
+      githubUrl: "https://github.com/AhirraoYash",
       date: "2024",
       featured: false,
     },
@@ -220,7 +220,7 @@ const Projects = () => {
         "A full-stack invoicing application built with the MERN stack (MongoDB, Express.js, React.js, and Node.js), designed specifically for freelancers and small businesses to create, manage, and track invoices efficiently.",
       technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
       liveUrl: "https://itspiyush3451.github.io/Loader/",
-      githubUrl: "https://github.com/itspiyush3451/SmartLedger",
+      githubUrl: "https://github.com/AhirraoYash",
       date: "2024",
       featured: false,
     },
